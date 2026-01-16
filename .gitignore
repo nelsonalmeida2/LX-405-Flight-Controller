@@ -1,0 +1,11 @@
+# Ignorar ficheiros temporários do KiCad
+*.lck
+*.swp
+*.bak
+*.kicad_prl
+*.kicad_pcb-bak
+fp-info-cache
+*-backups/
+_autosave*
+*.zip
+*.hot

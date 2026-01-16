@@ -1,0 +1,379 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f57384b7-c4fd-4efb-892f-bda036e988ea")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 44.45 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a29c403-c2a9-440c-8070-76b8fced174e")
+	)
+	(junction
+		(at 49.53 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c897b01e-adb3-499f-98ea-7ab5356d30c1")
+	)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ae9e4e-95a9-4a04-a1fd-23cd1aae2f6b")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d7624b-1e93-4140-b017-90a235e0b7f7")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 49.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3dce85-1b90-497c-a311-ff1638e3bd49")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 66.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da1b50c-ddf3-4032-b918-15cd0d50a9b1")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202d49d9-f01e-4833-a2d1-b817b53f9ebb")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 87.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f3f946-272f-45a5-b024-74de0a1d6507")
+	)
+	(wire
+		(pts
+			(xy 34.29 48.26) (xy 44.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448fb12b-a791-4962-9bc6-3add13e54fa1")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61573594-5d4c-4568-9be2-dbe3056b5c83")
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 66.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7a0d35-b134-4de9-a554-958047e5aca7")
+	)
+	(wire
+		(pts
+			(xy 66.04 115.57) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5cb250-9c38-46f4-85e0-0cd0f2963852")
+	)
+	(wire
+		(pts
+			(xy 49.53 74.93) (xy 49.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46815a4-ed91-4393-a0f4-1b13419c8ce1")
+	)
+	(wire
+		(pts
+			(xy 59.69 115.57) (xy 66.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e0537a-64a6-4430-ab5c-5ab080fd3ae5")
+	)
+	(wire
+		(pts
+			(xy 59.69 114.3) (xy 59.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc64b907-a520-4a6e-9fb6-05ea915c7a24")
+	)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 34.29 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cbc14ba-5cc5-435b-804b-ade9ee79b4d2")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 87.63 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9389ba2-50ea-4350-a094-a7a46ce1bac1")
+	)
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 87.63 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba545d90-b9e0-4396-bdc7-697c5c871196")
+	)
+	(hierarchical_label "+9V"
+		(shape output)
+		(at 87.63 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa37d8fc-96e6-4b36-8580-abe88241bedf")
+	)
+	(sheet
+		(at 62.23 49.53)
+		(size 16.51 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f52d128-28c3-4454-a24b-9559ebb538b1")
+		(property "Sheetname" "Regulator_9V"
+			(at 61.5184 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "9v_reg.kicad_sch"
+			(at 79.3246 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+9V_OUT" output
+			(at 73.66 74.93 270)
+			(uuid "5a3d9350-114c-44f7-bb82-359966692fa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_IN" input
+			(at 66.04 49.53 90)
+			(uuid "8f0b5952-780a-4db1-8d70-3833d3607e2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fligh controler"
+				(path "/9ac87d7b-7c63-4195-8fde-46e8d8136fbe/cb72bb9b-4878-4d82-89eb-a84c13808311"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 88.9)
+		(size 16.51 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "470502b5-978c-4e41-afe8-1861561d3fa5")
+		(property "Sheetname" "Regulator_3V3"
+			(at 45.0084 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3_reg.kicad_sch"
+			(at 62.8146 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3_OUT" output
+			(at 59.69 114.3 270)
+			(uuid "449e2e86-fbe5-4f1d-a9e3-7df66e2dc0d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 49.53 88.9 90)
+			(uuid "ffc9bcc4-c5d2-4871-98c0-936994a96e0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fligh controler"
+				(path "/9ac87d7b-7c63-4195-8fde-46e8d8136fbe/cb72bb9b-4878-4d82-89eb-a84c13808311"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 49.53)
+		(size 16.51 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f284c435-5dcc-4621-98e9-3353b10102f5")
+		(property "Sheetname" "Regulator_5V"
+			(at 37.3884 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_reg.kicad_sch"
+			(at 55.88 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_OUT" output
+			(at 49.53 74.93 270)
+			(uuid "1ccb237b-03f9-4a5d-8087-9d135b61b16c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_IN" input
+			(at 44.45 49.53 90)
+			(uuid "ecf55684-54a1-4fc6-a7d8-55baaf0a7af4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fligh controler"
+				(path "/9ac87d7b-7c63-4195-8fde-46e8d8136fbe/cb72bb9b-4878-4d82-89eb-a84c13808311"
+					(page "6")
+				)
+			)
+		)
+	)
+)
