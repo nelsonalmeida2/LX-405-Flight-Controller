@@ -5,6 +5,26 @@
 	(uuid "9ac87d7b-7c63-4195-8fde-46e8d8136fbe")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 189.23 62.23) (xy 186.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7335869b-7b78-4567-acb1-8dfd06c2c67b")
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d0c48c-3543-4be6-a3c7-d8a65568ef55")
+	)
 	(sheet
 		(at 59.69 69.85)
 		(size 44.45 44.45)
@@ -49,7 +69,7 @@
 	)
 	(sheet
 		(at 110.49 17.78)
-		(size 44.45 44.45)
+		(size 107.95 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -79,6 +99,276 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 110.49 55.88 180)
+			(uuid "72087658-225b-4c0f-bc66-c862bdffa37e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CURRENT_SENSE" input
+			(at 151.13 17.78 90)
+			(uuid "79c4947f-c86b-45ea-9ae8-6915d27bc7ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GYRO_CS" output
+			(at 151.13 62.23 270)
+			(uuid "82c19136-c0a9-466a-a019-3bd1535f1737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 147.32 62.23 270)
+			(uuid "c943cab3-9262-4e9b-a595-22beff1b2bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 143.51 62.23 270)
+			(uuid "bedf8adf-be8c-4771-a906-76b824603777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 139.7 62.23 270)
+			(uuid "f35bae70-ceb7-4a8e-a04e-056b841eec6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 125.73 62.23 270)
+			(uuid "7f37e330-a77f-48bc-a87b-05f2080bcaa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 121.92 62.23 270)
+			(uuid "02870663-607c-45b3-8294-11f25230c8fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SENSE" input
+			(at 156.21 17.78 90)
+			(uuid "cde747e8-3caa-4c9c-8c02-9d55470b7113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" output
+			(at 189.23 62.23 270)
+			(uuid "1491b771-a0e9-42b4-a070-9cd163348a7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 186.69 62.23 270)
+			(uuid "5a476ef9-c295-4885-aec2-abb3170e176a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_1" output
+			(at 115.57 17.78 90)
+			(uuid "2055b753-9dcd-4342-be70-f69ff869a106")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_2" output
+			(at 119.38 17.78 90)
+			(uuid "9d330117-85e5-4bfe-8abb-9984ac2ace9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_3" output
+			(at 124.46 17.78 90)
+			(uuid "d6d9720c-0232-42f5-b690-4a3dc783ef1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_4" output
+			(at 129.54 17.78 90)
+			(uuid "9515e6bd-4803-4f36-a246-27d5738df874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSD_CS" output
+			(at 176.53 62.23 270)
+			(uuid "ae0f028a-8e85-4ee9-b05a-bf992f8da9bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX1" input
+			(at 218.44 24.13 0)
+			(uuid "60c656cb-c5d2-4558-bb6f-ff27cfa073e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX3" input
+			(at 218.44 33.02 0)
+			(uuid "b8a779d1-ceba-4fbd-831d-744d630b0b8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX4" input
+			(at 218.44 41.91 0)
+			(uuid "988d40eb-f3d2-4160-bcf8-f3a2656dc8dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX6" input
+			(at 218.44 50.8 0)
+			(uuid "f7261724-ad93-4868-a1a3-63b2bf074312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_MISO" input
+			(at 172.72 62.23 270)
+			(uuid "c95eaa3e-af3e-4e51-9ca2-43bb2889255a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MOSI" output
+			(at 168.91 62.23 270)
+			(uuid "ef0ce865-0f62-4a6d-8d87-e1f386b3b38f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_SCK" output
+			(at 165.1 62.23 270)
+			(uuid "e7abc788-b802-45c0-9b65-44b09e543862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX1" output
+			(at 218.44 21.59 0)
+			(uuid "f5deecd1-bc43-4d70-89e3-c8d575a73c7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX3" output
+			(at 218.44 30.48 0)
+			(uuid "f1f3c085-0138-4caf-b20a-bbb48f16f934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX4" output
+			(at 218.44 39.37 0)
+			(uuid "550f7f98-c94c-4b47-87c0-3f9123753a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX6" output
+			(at 218.44 48.26 0)
+			(uuid "80b4c279-7e45-4d1f-a34b-3fe72e08741c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
