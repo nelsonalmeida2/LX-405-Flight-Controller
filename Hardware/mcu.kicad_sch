@@ -3426,6 +3426,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e41a64-3c51-4d80-8a2e-298e3b942bfb")
+	)
+	(wire
+		(pts
 			(xy 60.96 120.65) (xy 99.06 120.65)
 		)
 		(stroke
@@ -3936,6 +3946,17 @@
 		)
 		(uuid "04b069ea-bf37-4689-86c1-b05e6440ce52")
 	)
+	(hierarchical_label "GYRO_EXTI"
+		(shape input)
+		(at 106.68 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10ea387d-45a0-4727-b11f-34e54325a1ba")
+	)
 	(hierarchical_label "MOTOR_1"
 		(shape output)
 		(at 154.94 96.52 0)
@@ -4179,7 +4200,7 @@
 		(uuid "e84e65b6-87ea-453b-9a45-044f42a8e463")
 	)
 	(hierarchical_label "I2C1_SCL"
-		(shape output)
+		(shape bidirectional)
 		(at 154.94 111.76 0)
 		(effects
 			(font
@@ -4297,7 +4318,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "100R @ 100MHz"
 			(at 153.6192 34.29 90)
 			(effects
 				(font

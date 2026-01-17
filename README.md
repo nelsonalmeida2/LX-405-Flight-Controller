@@ -56,6 +56,13 @@ This design applies core concepts from my Computer Engineering curriculum at **U
     * **UART 6:** GPS & Navigation.
 * **Sensor Bus:** Dedicated SPI1 (High-Speed Gyro) and SPI2 (OSD).
 
+### 🛡️ On-Board Sensors & OSD
+* **IMU (Gyroscope):** **BMI270** connected via Low-Noise **SPI1**.
+    * Features hardware **EXTI Interrupt** (PC4) for ultra-low latency loop synchronization.
+* **Barometer:** **DPS310** connected via **I2C1** for high-precision altitude hold.
+* **Analog OSD:** **MAX7456** (or AT7456E) on **SPI2**.
+    * Includes dedicated **Video Filter** and 27MHz Crystal for artifact-free image overlay.
+
 ### 🔋 Power Plant (Tri-Rail Architecture)
 A hierarchical power distribution system designed to minimize noise coupling and maximize versatility:
 
@@ -94,10 +101,10 @@ LX-405-Flight-Controller/
     - [x] Control Logic: Hardware BOOT0 and NRST (Reset) circuits.
     - [x] I/O Architecture: Hierarchical Label mapping for SPI, UART, I2C, and DSHOT.
 
-- [ ] **System Peripherals**
-    - [ ] Gyroscope (MPU6000 / BMI270) implementation via SPI1.
-    - [ ] Barometer (DPS310 / BMP280) implementation via I2C.
-    - [ ] Analog OSD (AT7456E) implementation via SPI2.
+- [x] **System Peripherals**
+    - [x] Gyroscope (BMI270) implementation via SPI1 (featuring EXTI Interrupt).
+    - [x] Barometer (DPS310) implementation via I2C.
+    - [x] On-Screen Display (OSD): MAX7456 implementation via SPI2 (with video filtering & external crystal).
 
 - [ ] **Connectors & I/O**
     - [ ] USB-C Interface (Data lines & ESD protection).
@@ -127,3 +134,4 @@ As an **Open Source Hardware** project, contributions and forks are welcome.
 Powered by Engineering Fundamentals & AI
 
 </div>
+

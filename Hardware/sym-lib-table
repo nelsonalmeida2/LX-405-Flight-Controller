@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMI270")(type "KiCad")(uri "D:/Downloads/bmi270/BMI270.kicad_sym")(options "")(descr ""))
+  (lib (name "DPS310")(type "KiCad")(uri "D:/Downloads/DPS310/DPS310.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX7456EUI_T")(type "KiCad")(uri "D:/Downloads/MAX7456EUI_T/MAX7456EUI_T.kicad_sym")(options "")(descr ""))
+  (lib (name "AT7456E")(type "KiCad")(uri "D:/Downloads/AT7456E/AT7456E/KiCad/AT7456E.kicad_sym")(options "")(descr ""))
+)
