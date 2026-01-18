@@ -1268,16 +1268,6 @@
 		)
 		(uuid "f8f51d14-31b7-4a5a-8c54-1ff68f17cecd")
 	)
-	(label "+9V"
-		(at 124.46 93.98 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "1668958c-4a95-43b7-aede-54a526799822")
-	)
 	(hierarchical_label "+9V_OUT"
 		(shape output)
 		(at 128.27 90.17 0)

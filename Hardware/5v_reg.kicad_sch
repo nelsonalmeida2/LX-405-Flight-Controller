@@ -1248,16 +1248,6 @@
 		)
 		(uuid "fb48564a-db3b-45aa-b5c8-3ca3836a9625")
 	)
-	(label "+5V"
-		(at 148.59 90.17 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "20d63d80-30b7-4330-b6e4-6b1b7403f691")
-	)
 	(hierarchical_label "VBAT_IN"
 		(shape input)
 		(at 128.27 90.17 180)
