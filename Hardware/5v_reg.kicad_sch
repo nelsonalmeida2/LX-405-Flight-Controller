@@ -727,22 +727,16 @@
 		)
 	)
 	(junction
+		(at 129.54 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "207c837a-eec1-41b9-8f00-27fdba521a56")
+	)
+	(junction
 		(at 143.51 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49bfa3c8-379f-4970-93a9-206c5dcac3db")
-	)
-	(junction
-		(at 132.08 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "532a720a-87cd-4ed9-8164-2d2cb116870a")
-	)
-	(junction
-		(at 135.89 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "726c9538-2abc-474c-adf7-b5286e55f293")
 	)
 	(junction
 		(at 153.67 97.79)
@@ -767,12 +761,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b536bfbb-679e-4987-af94-2695fccf57ca")
-	)
-	(junction
-		(at 135.89 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b553b7aa-bba9-44d1-9b1c-a261e4926de8")
 	)
 	(junction
 		(at 129.54 100.33)
@@ -812,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 90.17) (xy 132.08 90.17)
+			(xy 128.27 90.17) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
@@ -912,6 +900,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bfc3a8-6a7f-4482-bfd7-4216fb13b9db")
+	)
+	(wire
+		(pts
 			(xy 157.48 101.6) (xy 153.67 101.6)
 		)
 		(stroke
@@ -919,6 +917,16 @@
 			(type default)
 		)
 		(uuid "66357c48-5cb2-40f8-8b17-028f0efda993")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 129.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689d7766-563f-4b79-987e-687da059a1d4")
 	)
 	(wire
 		(pts
@@ -1062,23 +1070,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 139.7 87.63)
+			(xy 129.54 73.66) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a0cb4c3-ddb4-4d71-9543-49a5f3e4c80e")
-	)
-	(wire
-		(pts
-			(xy 132.08 87.63) (xy 135.89 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f50cf4-4dc7-46af-b2da-09e5c423a20e")
+		(uuid "92b80089-3a93-4bd2-9ca3-b123a74a36b1")
 	)
 	(wire
 		(pts
@@ -1109,16 +1107,6 @@
 			(type default)
 		)
 		(uuid "b188d2dd-41ae-4084-83e5-bc2fb9607604")
-	)
-	(wire
-		(pts
-			(xy 135.89 83.82) (xy 135.89 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baed74dd-10a5-4a8a-a598-6ac327ae1423")
 	)
 	(wire
 		(pts
@@ -1169,16 +1157,6 @@
 			(type default)
 		)
 		(uuid "d19d92c4-0162-4446-94a6-8e287d48bfbd")
-	)
-	(wire
-		(pts
-			(xy 139.7 92.71) (xy 135.89 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2054d08-2bfa-47ec-a1da-e5fd55b33b24")
 	)
 	(wire
 		(pts
@@ -1259,16 +1237,6 @@
 			(type default)
 		)
 		(uuid "f516688d-77ed-41eb-9909-503eb3579c2a")
-	)
-	(wire
-		(pts
-			(xy 132.08 87.63) (xy 132.08 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f69f6d50-416b-47e1-a1a2-d3db9c5d36de")
 	)
 	(wire
 		(pts
@@ -1652,73 +1620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f272fca-18a0-48be-ab15-f2f0c5670a98")
-		(property "Reference" "#PWR04"
-			(at 135.89 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ff2caf5-e184-4231-9d9b-c2a37e96c320")
-		)
-		(instances
-			(project "fligh controler"
-				(path "/9ac87d7b-7c63-4195-8fde-46e8d8136fbe/cb72bb9b-4878-4d82-89eb-a84c13808311/f284c435-5dcc-4621-98e9-3353b10102f5"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 154.94 93.98 0)
 		(unit 1)
@@ -1856,6 +1757,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e98b1b2f-53ab-47c8-bf3d-7643a9444adb")
+		(property "Reference" "#PWR040"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2a342a0-8e59-49ff-b6a2-ac88a3ba9ea2")
+		)
+		(instances
+			(project "fligh controler"
+				(path "/9ac87d7b-7c63-4195-8fde-46e8d8136fbe/cb72bb9b-4878-4d82-89eb-a84c13808311/f284c435-5dcc-4621-98e9-3353b10102f5"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS54302")
 		(at 142.24 100.33 0)
 		(unit 1)
@@ -1938,7 +1906,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 139.7 90.17 180)
+		(at 129.54 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1947,7 +1915,7 @@
 		(fields_autoplaced yes)
 		(uuid "f88c2a44-52a5-437d-91de-140361354d18")
 		(property "Reference" "C4"
-			(at 140.97 86.36 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1924,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 142.24 91.948 0)
+			(at 132.08 83.058 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1965,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 90.17 0)
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +1942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 90.17 0)
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1951,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 139.7 90.17 0)
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
