@@ -2,9 +2,13 @@
 
 # 🚁 LX-405 Flight Controller
 
+<div align="center">
+  <img src="Docs/renders/top_placement_v1.png" alt="LX-405 PCB Placement" width="600">
+</div>
+
 **A robust, Open Source FPV Flight Controller designed by a Computer Engineering student.**
 
-[![Status](https://img.shields.io/badge/Status-Schematic%20Frozen-success?style=for-the-badge)](https://github.com/nelsonalmeida2/LX-405-Flight-Controller)
+[![Status](https://img.shields.io/badge/Status-PCB%20Placement%20Done-orange?style=for-the-badge)](https://github.com/nelsonalmeida2/LX-405-Flight-Controller)
 [![Version](https://img.shields.io/badge/Version-0.6-blue?style=for-the-badge)](https://github.com/nelsonalmeida2/LX-405-Flight-Controller)
 [![Power](https://img.shields.io/badge/Input-3S--6S%20LiPo-red?style=for-the-badge)](https://github.com/nelsonalmeida2/LX-405-Flight-Controller)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -132,10 +136,13 @@ LX-405-Flight-Controller/
 
 ### Phase 2: PCB Layout 📐
 
-- [ ] **Physical Implementation**
-    - [ ] Assign footprints (associating symbols with physical dimensions)
-    - [ ] Stackup definition (4-layer)
-    - [ ] Component placement & routing
+- [x] **Physical Implementation**
+    - [x] Assign footprints (associating symbols with physical dimensions)
+    - [x] Stackup definition (4-layer)
+    - [x] Component placement (Optimized for noise reduction & assembly)
+    - [x] Silkscreen & Labeling (User-friendly pin identification)
+    - [ ] Routing (Traces & Ground Planes)
+    - [ ] DRC (Design Rules Check) & Fabrication Output (Gerbers)
 
 ---
 
